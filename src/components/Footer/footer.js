@@ -1,3 +1,4 @@
+import './footer.css'
 import logo from '../../data/logo_footer.png';
 
 const Footer = () => (

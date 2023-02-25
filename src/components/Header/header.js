@@ -1,3 +1,5 @@
+import './header.css'
+
 import Logo from '../../data/logo.png';
 import Navbar from '../navbar/navbar';
 

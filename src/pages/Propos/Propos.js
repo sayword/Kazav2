@@ -1,4 +1,5 @@
 import React from 'react';
+import './propos.css';
 import Header from "../../components/Header/header";
 import Banner from '../../components/Banner/banner';
 import Collapse from '../../components/Collapse/collapse';
