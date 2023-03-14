@@ -1,5 +1,4 @@
 .collapse {
-    background-color: #7f8fa6;
     max-width: 1100px;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
@@ -10,8 +9,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #2c3e50;
-    color: #3498db;
+    background: #FF6060;
+    color: #FFFFFF;
     border-radius: 10px;
     font-weight: 500;
     font-size: calc(13px + (18 - 13) * ((100vw - 300px) / (1600 - 300)));
@@ -49,6 +48,8 @@
     letter-spacing: 1px;
     font-size: calc(12px + (16 - 12) * ((100vw - 300px) / (1600 - 300)));
     color: #2c3e50;
+    background-color: #F7F7F7;
+    border-radius:10px ;
     transition: visibility 0.5s ease-in-out, opacity 0.5s ease-in-out, height 0.2s ease-in-out;
   }
   
