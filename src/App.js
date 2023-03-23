@@ -1,4 +1,4 @@
-import Home from './pages/Home/Home';
+import Home from './pages/Home/Home'; 
 import Error from './pages/404/Error';
 import Propos from './pages/Propos/Propos';
 import Appartement from './pages/Appartement/Appartement';
@@ -9,7 +9,7 @@ const router = createBrowserRouter([
 	{
 		path: "/Kasa/",
 		element: <Home />
-	},
+	},					
 	{
 		path: '/',
 		element: <Home />,

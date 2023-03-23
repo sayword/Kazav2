@@ -5,9 +5,9 @@ import Footer from '../../components/Footer/footer';
 import Gallery from '../../components/Gallery/Gallery'
 
 
-function Home() {
+function Home() { 
   return (
-    <div className="home"> {}
+    <div className="home"> {} 
       <Header /> 
       <Banner /> 
       <Gallery />
@@ -16,4 +16,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default Home; 

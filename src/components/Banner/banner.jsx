@@ -5,7 +5,7 @@ import { useEffect, useState } from 'react';
 
 const Banner = () => {
   const location = useLocation();
-  const [aboutPage, setAboutPage] = useState(location.pathname === '/about');
+  const [aboutPage, setAboutPage] = useState(location.pathname === '/about'); 
 
   useEffect(() => {
     setAboutPage(location.pathname === '/about');

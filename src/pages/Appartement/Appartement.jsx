@@ -24,7 +24,7 @@ export default function Accomodation() {
   if (dataCurrentAccomodation.length === 0) {
     return <Error />;
   }
-
+  
   const name = dataCurrentAccomodation[0].host.name.split(' ');
   const rating = dataCurrentAccomodation[0].rating;
   const description = dataCurrentAccomodation[0].description;
